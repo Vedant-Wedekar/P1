@@ -130,6 +130,78 @@ function sap3(){
 
 }
 sap3();
+
+function sap4(){
+    document.querySelector("#child5").addEventListener("mouseenter",function(){
+        gsap.to(".cursor",{
+            
+            transform:'translate(-50%,-50%) scale(1)'
+        })
+    })
+
+    document.querySelector("#child5").addEventListener("mouseleave",function(){
+        gsap.to(".cursor",{
+            
+            transform:'translate(-50%,-50%) scale(0)'
+        })
+    })
+
+}
+sap4();
+
+function sap5(){
+    document.querySelector("#child6").addEventListener("mouseenter",function(){
+        gsap.to(".cursor",{
+            
+            transform:'translate(-50%,-50%) scale(1)'
+        })
+    })
+
+    document.querySelector("#child6").addEventListener("mouseleave",function(){
+        gsap.to(".cursor",{
+            
+            transform:'translate(-50%,-50%) scale(0)'
+        })
+    })
+
+}
+sap5();
+
+function sap6(){
+    document.querySelector("#child7").addEventListener("mouseenter",function(){
+        gsap.to(".cursor",{
+            
+            transform:'translate(-50%,-50%) scale(1)'
+        })
+    })
+
+    document.querySelector("#child7").addEventListener("mouseleave",function(){
+        gsap.to(".cursor",{
+            
+            transform:'translate(-50%,-50%) scale(0)'
+        })
+    })
+
+}
+sap6();
+
+function sap7(){
+    document.querySelector("#child8").addEventListener("mouseenter",function(){
+        gsap.to(".cursor",{
+            
+            transform:'translate(-50%,-50%) scale(1)'
+        })
+    })
+
+    document.querySelector("#child8").addEventListener("mouseleave",function(){
+        gsap.to(".cursor",{
+            
+            transform:'translate(-50%,-50%) scale(0)'
+        })
+    })
+
+}
+sap7();
 // function starting_animation(){
 
 
